@@ -1,0 +1,68 @@
+/* The little card thing with the sloths in it*/
+
+.image-one-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    border:2px solid transparent;
+    border-radius: 30px;
+    align-items: center;
+    width: 140vh;
+    margin-bottom: 5vh;
+}
+.image-one-container #image-container{
+    background-image: url('https://unsloth.ai/cgi/image/sloths_surprise_0mhHDdv58GugL2x5o8Km8.png?width=1920&quality=80&format=auto');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border-bottom-left-radius: 28px;
+    border-top-left-radius: 28px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.newsletter-signup{
+    background-color: rgb(116, 255, 186);
+    height: 600px;
+    width: 700px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 2vh;
+    display: flex;
+}
+#newsletter-content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.newsletter-signup h1{
+    font-size: 70px;
+}
+.newsletter-signup p {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+.image-one-container #email-inp{
+    width: 400px;
+    padding:15px;
+    height: 50px;
+    border-radius: 30px;
+    border:0px;
+}
+.image-one-container #submit-inp{
+    margin-left: 1vh;
+    width: 100px;
+    padding: 15px;
+    height: 50px;
+    border-radius: 30px;
+    border:0px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}

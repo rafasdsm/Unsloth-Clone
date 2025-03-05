@@ -1,0 +1,23 @@
+.badges-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.badges-container h1{
+    font-size: large;
+}
+.badges-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.badges-images img{
+    margin-top: 3vh;
+    width: 5%;
+    height: 5%;
+    margin-left: 5vh;
+}
