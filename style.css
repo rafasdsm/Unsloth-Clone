@@ -13,33 +13,44 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:5rem;
 }
 *{
-    color:white;
+    color:#A0A0A0;
     font-family:"Inter";
 }
 nav{
     display:flex;
     flex-direction: row;
-    background-color:#0D0E12;
+    background-color:#2A2A2A;
     width:70rem;
     margin-top: 1rem;
     border-radius: 15rem;
     align-items: center;
+    padding-left:10px;
+    padding-right:10px;
 }
 nav a{
     text-decoration: none;
+}
+nav a:hover{
+    color:white;
 }
 nav button{
     background-color: #4ADE80;
     border:1px solid transparent;
     border-radius: 5rem;
     padding:0.8rem;
+    color:white;
+    cursor: pointer;
 }
 nav span{
     margin-left: 1rem;
     font-size:2rem;
     flex-grow: 2;
+}
+nav span:hover{
+    color:white;
 }
 nav img{
     border-radius: 50%;
@@ -53,4 +64,104 @@ nav ul{
 }
 nav ul li{
     list-style-type: none;
+}
+#sect-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title-card{
+    font-size:0.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    border:1px solid transparent;
+    border-radius: 10rem;
+    background-color: #2A2A2A;
+    width:20rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-card-roundtext{
+    border:1px solid #38a861;
+    background-color: #38a861;
+    color:white;
+    padding:0.5rem;
+    width: 5rem;
+    text-align: center;
+    border-radius: 5rem;
+}
+#text-art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text-art h1{
+    font-size: 5rem;
+    color:white;
+}
+#text-art p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#button-art{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+#button-art button{
+    color:white;
+    background-color: #2A2A2A;
+    border:transparent;
+    border-radius: 5rem;
+    padding:1.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+#image-art{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#image-art img{
+    width: 60%;
+    border-radius: 5rem;
+}
+.card-section{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-section h1{
+    color:white;
+    font-size: 3rem;
+}
+.card-section p{
+    width: 70%;
+}
+.card-section button{
+    color:white;
+    background-color: #2A2A2A;
+    border: transparent;
+    border-radius: 5rem;
+    font-size:1rem;
+    padding:1rem;
+    cursor: pointer;
+}
+.card-section img{
+    border-radius: 2rem;
+    width: 600px;
 }
