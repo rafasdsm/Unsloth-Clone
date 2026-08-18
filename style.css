@@ -30,6 +30,10 @@ nav{
     padding-left:10px;
     padding-right:10px;
 }
+header{
+    position: sticky;
+    top:0;
+}
 nav a{
     text-decoration: none;
 }
@@ -64,6 +68,13 @@ nav ul{
 }
 nav ul li{
     list-style-type: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
 }
 #sect-1{
     display: flex;
@@ -139,19 +150,20 @@ nav ul li{
     border-radius: 5rem;
 }
 .card-section{
-    margin-top: 5rem;
     display: flex;
     flex-direction: row;
+    gap:5rem;
     justify-content: center;
     align-items: center;
+}
+.card-section article{
+    width: 35%;
 }
 .card-section h1{
     color:white;
     font-size: 3rem;
 }
-.card-section p{
-    width: 70%;
-}
+
 .card-section button{
     color:white;
     background-color: #2A2A2A;
@@ -164,4 +176,31 @@ nav ul li{
 .card-section img{
     border-radius: 2rem;
     width: 600px;
+}
+
+.models-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.5rem;
+}
+.model-card{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    background-color: #2A2A2A;
+    border-radius: 2rem;
+    width: 35rem;
+    height: 10rem;
+    padding:1rem;
+}
+.model-card img{
+    width: 50%;
+    border-radius: 2rem;
+}
+.model-card p{
+    color:#38a861
+}
+.model-card h1{
+    color:white;
+    font-size: 1.7rem;
 }
