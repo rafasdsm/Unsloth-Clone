@@ -184,6 +184,7 @@ main{
     gap:1.5rem;
 }
 .model-card{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     gap:1rem;
@@ -203,4 +204,83 @@ main{
 .model-card h1{
     color:white;
     font-size: 1.7rem;
+}
+
+#text-section{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+#title-text{
+    color:white;
+    text-decoration: none;
+    font-size: .9rem;
+}
+#text- h1{
+    color:white;
+    font-size: 5rem;
+    width: 100%;
+    margin:0;
+}
+#text- p{
+    width: 70%;
+    font-size: 2rem;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+h1{
+    margin-left: 2rem;
+    color:white;
+}
+li::marker{
+    color:#4ADE80
+}
+
+#card-section{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    border-radius: 3rem;
+    background-color: #2A2A2A;
+    width: 80rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+}
+#bubble-text{
+    border-radius: 3rem;
+    background-color: black;
+    color:white;
+    padding:10px;
+    font-size:.9rem;
+    margin:0;
+}
+#title-text h1{
+    margin:0;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+#button-container{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+#button-container button{
+    border-radius: 3rem;
+    color:white;
+    width: 10rem;
+    height: 3rem;
+    border:transparent;
+    cursor: pointer;
+}
+#btn-1{
+    background-color: #4ADE80;
+}
+#btn-2{
+    background-color: #09090B;
 }
